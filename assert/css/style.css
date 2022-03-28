@@ -1,0 +1,155 @@
+:root{
+	--dark-color:#191919;
+	--white-color:#FFFFFF;
+	--purple-color:rgb(117,41,149);
+	--blue-color:#00B2B1;
+	--gray-color:#828282;
+	--ligh-color:#F3F3F3;
+}
+h3{
+  color: var(--purple-color);
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.roja{
+    background-color: rgb(226, 93, 115);
+}
+.amrilla{
+background-color: rgb(232, 248, 9);
+}
+.gratis{
+  background-color: var(--purple-color);
+  color: white;
+}
+.verde{
+background-color: rgb(128, 204, 15);
+}
+.btn-outline-primary {
+    color: #fff;
+    background-color:var(--purple-color);
+    border-color:var(--white-color);
+  }
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color:rgba(117, 41, 149, 0.884); 
+    border-color: var(--ligh-color);
+    box-shadow: 2px 2px 2px rgb(80, 79, 79);
+  }
+  .btn-outline-secondary {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    border-color: var(--white-color);
+  }
+  .btn-outline-secondary:hover {
+    color: #fff;
+    background-color:#00b2b2cb; 
+    border-color:var(--white-color);
+    box-shadow: 2px 2px 2px rgb(80, 79, 79);
+  }
+.header-logo{
+    width:15rem;
+}
+.micard img{
+width: 150px;
+
+}
+.micard h5{
+  color: var(--purple-color);
+  font-weight: bold;
+}
+.minav{
+  background-color: var(--purple-color);
+  
+}
+.minav a{
+  color: var(--white-color);
+}
+.minav a:hover{
+  color: rgba(255, 255, 255, 0.699);
+}
+.minav i{
+  color: var(--white-color);
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+   background-color: rgba(255, 255, 255, 0.288);
+  border: 0.5 px solid var(--purple-color);
+  border-radius: 0.25rem;
+  
+}
+.agenda{
+  background-image: url(../img/fondo.jpg);
+}
+.especialistas p{
+font-weight: bold;
+}
+
+footer{
+background-image: url(../img/fondo.jpg);
+  
+}
+.mifooter{
+  background-color:rgba(117, 41, 149, 0.384);
+}
+.micarrusel h5 {
+  color: var(--blue-color);
+  font-weight: bolder;
+}
+.micard-contat img{
+  width: 60px;
+}
+.escribenos{
+  margin: 1rem auto;
+  color: white;
+  width: 700px;
+  background-color: var(--purple-color);
+  border-radius: 20px;
+}
+.escribenos h3{
+  color: white;
+}
+.miform-btn input{
+  background-color: var(--blue-color);
+}
+.misummit{
+  margin: 1rem auto;
+}
+.sec-tips{
+  width: 70%;
+  background-image: url(../img/fondo.jpg);
+  margin: 1rem auto;
+  padding: 2rem;
+}
+.box-milog{
+  
+  margin: 1rem auto;
+  color: white;
+  width: 300px;
+  background-color: var(--blue-color);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.miaside{
+  background-color: var(--dark-color);
+  padding-top: 1rem;
+  
+}
+.miaside a:hover{
+ color: var(--purple-color);
+}
+.midash{
+  margin-top: 2rem;
+}
+.mibuscar{
+  margin: 30px;
+}
+.tabla-product thead{
+  background-color: var(--purple-color);
+  color: white;
+}
